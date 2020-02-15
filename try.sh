@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Auto SSH-Kegen
+# Auto SSH-Keygen
 # My try to make a usefull bash script,
 # To Generate SSH key and place it on a host machine.
 echo
@@ -61,10 +61,6 @@ else
     echo "IP is set $dest_ip"
 fi
 echo
-
-
-
-
 
 
 # cat /$USER/.ssh/$filename | ssh "$dest_user@$ip_dest" "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys"
