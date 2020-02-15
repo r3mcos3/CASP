@@ -4,7 +4,7 @@
 # My try to make a usefull bash script,
 # To Generate SSH key and place it on a host machine.
 echo
-echo Auto SSH-Kegen
+echo Auto SSH-Keygen
 echo My try to make a usefull bash script,
 echo To generate SSH key and place it on a host machine.
 echo
@@ -56,6 +56,7 @@ echo
 if [ -z "dest_ip" ]
 then
     echo "No ip is set... Exiting!!!"
+exit
 else
     echo "IP is set $dest_ip"
 fi
