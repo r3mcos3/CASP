@@ -7,4 +7,6 @@
 
 15-2-2020 fix a typo and added a "exit"
 
+15-2-2020 added a license
 
+17-2-2020 some improvements 
