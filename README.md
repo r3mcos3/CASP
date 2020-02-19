@@ -10,3 +10,5 @@
 15-2-2020 added a license
 
 17-2-2020 some improvements 
+
+19-2-2020 some more improvements
