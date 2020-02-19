@@ -12,3 +12,5 @@
 17-2-2020 some improvements 
 
 19-2-2020 some more improvements
+
+19-2-2020 Finalized script & rename

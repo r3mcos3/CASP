@@ -53,4 +53,6 @@ fi
 ssh-keygen -t rsa -f /$USER/.ssh/$filename -N ""
 
 #Put SSH keys in place.
-cat /$USER/.ssh/$filename.pub | ssh $dest_user@$dest_ip "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat /$USER/.ssh/$filename.pub | ssh $dest_user@$dest_ip "mkdir -p ~/.ssh && chmod 755 ~/.ssh && cat >> ~/.ssh/authorized_keys"
+
+# NOTE: if you have multiple ssh keys always use: "ssh -i /path/to/file user@xx.xx.xx.xx"
