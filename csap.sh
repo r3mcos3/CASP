@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# CSAP
+
+#Stands for "Creating Ssh-key And Place"
+
 # Auto SSH-Keygen
 # My try to make a usefull bash script,
 # To Generate SSH key and place it on a host machine.
